@@ -33,7 +33,7 @@ app.get('/api/status', function(req, res) {
         //time: result.rows[0].time
         id: result.rows[0].ID,
         name: result.rows[0].NAME,
-        age: result.rows[0].AGE,
+        age: result.rows[0].AGE
       });
     });
   });
